@@ -376,7 +376,7 @@ hr {
 
   .habit-images {
     display: grid;
-    grid-template-columns: repeat(1, 230px);
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .mile-container {
@@ -386,7 +386,7 @@ hr {
     gap: 30px;
   }
   .banner-texts {
-    width: 285px;
+    width: 60%;
     margin: 10px 10px 0px;
   }
   .team-container {
@@ -398,7 +398,6 @@ hr {
     width: 100%;
     grid-template-columns: repeat(1, 1fr);
     gap: 50px;
-    margin-left: 30px;
   }
   .footer-desk {
     width: 317px;
