@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.cdnfonts.com/css/miama");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.miama {
+  font-family: "Miama", sans-serif;
+}
+
+.inter-general {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Shared styles */
+.body {
+  background-color: black;
+}
+
+.sub-head {
+  font-weight: bolder;
+  font-size: 4rem;
+  color: white;
+}
+
+.desk {
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-prime {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 45px;
+  background-color: rgba(230, 83, 60, 1);
+  padding: 16px 46px;
+}
+
+.circle-head {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.circle-text {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+}
+/* Style */
+header {
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 1),
+    rgba(119, 119, 119, 0.5),
+    rgba(0, 0, 0, 1)
+  );
+}
+
+.nav-head {
+  font-family: "Inter", sans-serif;
+  font-size: 2.25rem;
+  font-weight: bolder;
+  color: rgba(230, 83, 60, 1);
+}
+.nav-menu li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+.nav-menu {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 70px;
+  padding: 4px 24px 4px 4px;
+}
+.nav-menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 47px;
+  align-items: center;
+}
+
+.nav-img {
+  width: 24px;
+  object-fit: cover;
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 57px;
+}
+
+/* banner */
+
+.banner-header {
+  color: white;
+  font-weight: bold;
+  font-size: 5rem;
+  margin-bottom: 28px;
+}
+
+.download-btn {
+  margin-left: 14px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+  border: 1px solid white;
+  border-radius: 45px;
+  background: rgba(255, 255, 255, 0);
+  padding: 16px 46px;
+}
+
+#shape {
+  font-family: Miama;
+  font-weight: 400;
+  font-size: 7rem;
+  overflow-y: visible;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 87px;
+  max-width: 1060px;
+  margin: 90px auto 0px;
+}
+
+.banner-header {
+  line-height: 1;
+}
+
+.banner-texts {
+  max-width: 600px;
+}
+
+.card {
+  background-color: rgba(48, 48, 48, 0.54);
+  border-radius: 12px;
+  padding: 17px 24px;
+}
+.card-head {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.banner-img {
+  position: relative;
+}
+.free-workout {
+  width: 130px;
+  font-size: 0.8rem;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 63px;
+  left: -30px;
+}
+.top {
+  position: absolute;
+  top: 125px;
+  left: 200px;
+}
+
+.habit {
+  background-color: black;
+
+  margin: 100px auto 10px;
+}
+
+.habit-head {
+  margin: auto;
+  text-align: center;
+}
+
+.habit-images {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(4, 230px);
+  gap: 40px;
+  justify-content: center;
+}
+.circle {
+  text-align: center;
+  justify-content: center;
+}
+.circle img {
+  border-radius: 50%;
+}
+
+.extra-mile {
+  margin-top: 100px;
+  background-color: black;
+}
+.mile-container {
+  max-width: 1060px;
+  display: grid;
+  grid-template-columns: 443px 363px;
+  justify-content: center;
+  gap: 165px;
+  align-items: center;
+  background-color: rgba(34, 34, 34, 1);
+  padding: 40px;
+  margin: auto;
+  border-radius: 18px;
+}
+
+.extra-para {
+  margin: 14px auto 34px;
+}
+
+.extra-img {
+  width: 366px;
+}
+
+.extra-img img {
+  width: 100%;
+  height: 312px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.bmi-table {
+  margin: 100px auto 10px;
+  text-align: center;
+}
+
+table,
+td,
+th {
+  text-align: left;
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding-left: 18px;
+}
+table {
+  width: 310px;
+  height: 216px;
+}
+
+.table-bmi {
+  display: grid;
+  grid-template-columns: 443px 577px;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  margin-top: 70px;
+  background-color: rgba(34, 34, 34, 1);
+}
+.form-container input {
+  column-span: 30;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* team section style */
+.meet-team {
+  margin: 80px auto 30px;
+  text-align: center;
+}
+
+.team-container {
+  width: 1060px;
+  margin: 40px auto 60px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 272px 272px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 18px;
+}
+.member-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.member-card {
+  position: relative;
+}
+.member-info {
+  text-align: left;
+  position: absolute;
+  bottom: 19px;
+  left: 16px;
+}
+.member-name {
+  font-size: 1.25rem;
+  font-weight: bolder;
+  color: white;
+}
+.member-detail {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-head {
+  font-size: 4rem;
+  font-weight: bolder;
+  color: rgba(230, 83, 60, 1);
+}
+.footer-desk {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-subhead {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+footer li {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  list-style: none;
+  margin-top: 20px;
+}
+
+.footer-container {
+  width: 1060px;
+  padding-top: 45px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 2fr 1fr 1fr);
+  justify-content: space-around;
+  gap: 150px;
+}
+hr {
+  width: 1060px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.1);
+  margin: 80px auto 35px;
+}
+
+.lastline {
+  font-size: 1.25rem;
+}
+@media screen and (max-width: 576px) {
+  .nav-img {
+    display: inline;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .navbar {
+    gap: 226px;
+  }
+
+  .banner-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .habit-images {
+    display: grid;
+    grid-template-columns: repeat(1, 230px);
+  }
+
+  .mile-container {
+    width: 353px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .banner-texts {
+    width: 285px;
+    margin: 10px 10px 0px;
+  }
+  .team-container {
+    width: 353px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
